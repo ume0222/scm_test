@@ -4,5 +4,6 @@ node {
   }
   stage('ファイルを確認') {
     sh 'ls -l'
+    sh 'cat Jenkinsfile'
   }
 }
